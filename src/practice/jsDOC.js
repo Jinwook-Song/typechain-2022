@@ -6,7 +6,7 @@
  * @return {boolean}
  */
 export function init2(config) {
-  return true;
+  return config ? true : false;
 }
 
 /**
